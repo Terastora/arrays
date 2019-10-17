@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string name[5];
+	int  r,c,RpH[5], HpD[5], NumDays[5],Tax,Philhealth,SSS, Gross;
+	bool loop = true;
+	
+
+	for (char i = 0; i<5; i++){
+	cout << "\nEnter Name: ";
+	cin>> i[name];
+	cout << "Rate per Hour: ";
+	cin >> i[RpH];
+	
+	cout << "Hour per Days: ";
+	cin >> i[HpD];
+	
+	cout << "Number of Days: ";
+	cin >> i[NumDays];
+	}
+
+	for (int i=0 ; i<5; i++)
+	cout <<"\nName :"<< name[i] << "\tRate per Hour :"<<RpH[i]<< "\tHours per Day :"<< HpD[i] << "\tNumer of Days :"<<NumDays[i];
+	
+
+	return 0;
+}
+
